@@ -716,7 +716,7 @@
               `ho_ten=${data["ho_ten"]}&gioi_tinh=${data["gioi_tinh"]}&ngay_sinh=${data["ngay_sinh"]}&thang_sinh=${data["thang_sinh"]}&nam_sinh=${data["nam_sinh"]}&gio_sinh=${data["gio_sinh"]}&phut_sinh=${data["phut_sinh"]}&nam_xem=${data["nam_xem"]}`
             );
 
-            fetch("http://localhost:3000/api", {
+            fetch("https://vodanhhalac-github-io.onrender.com/api", {
               method: "POST",
               body: params,
             })
