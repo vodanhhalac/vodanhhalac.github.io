@@ -1,0 +1,1163 @@
+/*! CSS Used from: http://saigonsticker.com/css/site.css?v=1.0.3 */
+.ptmh1-wrap-css .card-header > h5 {
+  color: #fff;
+}
+
+/*! CSS Used from: http://saigonsticker.com/assets/7a5c5632/css/bootstrap.css */
+.ptmh1-wrap-css .row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.ptmh1-wrap-css .col-5,
+.col-6,
+.col-7,
+.col-12,
+.col-md-4,
+.col-md-8 {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.ptmh1-wrap-css .col-5 {
+  -ms-flex: 0 0 41.666667%;
+  flex: 0 0 41.666667%;
+  max-width: 41.666667%;
+}
+
+.ptmh1-wrap-css .col-6 {
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.ptmh1-wrap-css .col-7 {
+  -ms-flex: 0 0 58.333333%;
+  flex: 0 0 58.333333%;
+  max-width: 58.333333%;
+}
+
+.ptmh1-wrap-css .col-12 {
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+@media (min-width: 768px) {
+  .ptmh1-wrap-css .col-md-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+
+  .ptmh1-wrap-css .col-md-8 {
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+  }
+}
+
+.ptmh1-wrap-css .form-control {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ptmh1-wrap-css .form-control {
+    transition: none;
+  }
+}
+
+.ptmh1-wrap-css .form-control::-ms-expand {
+  background-color: transparent;
+  border: 0;
+}
+
+.ptmh1-wrap-css .form-control:-moz-focusring {
+  color: transparent;
+  text-shadow: 0 0 0 #495057;
+}
+
+.ptmh1-wrap-css .form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.ptmh1-wrap-css .form-control::-webkit-input-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.ptmh1-wrap-css .form-control::-moz-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.ptmh1-wrap-css .form-control:-ms-input-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.ptmh1-wrap-css .form-control::-ms-input-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.ptmh1-wrap-css .form-control::placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.ptmh1-wrap-css .form-control:disabled {
+  background-color: #e9ecef;
+  opacity: 1;
+}
+
+.ptmh1-wrap-css .form-group {
+  margin-bottom: 1rem;
+}
+
+.ptmh1-wrap-css .card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+.ptmh1-wrap-css .card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+}
+
+.ptmh1-wrap-css .card-title {
+  margin-bottom: 0.75rem;
+}
+
+.ptmh1-wrap-css .card-header {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.ptmh1-wrap-css .card-header:first-child {
+  border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+}
+
+.ptmh1-wrap-css .p-3 {
+  padding: 1rem !important;
+}
+
+.ptmh1-wrap-css .text-right {
+  text-align: right !important;
+}
+
+.ptmh1-wrap-css .font-weight-bold {
+  font-weight: 700 !important;
+}
+
+.ptmh1-wrap-css .text-danger {
+  color: #dc3545 !important;
+}
+
+.ptmh1-wrap-css .text-dark {
+  color: #343a40 !important;
+}
+
+/*! CSS Used from: http://saigonsticker.com/porto/js/bootstrap/css/bootstrap.min.css */
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+.ptmh1-wrap-css h5 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.ptmh1-wrap-css p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.ptmh1-wrap-css label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+.ptmh1-wrap-css input,
+.ptmh1-wrap-css select {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.ptmh1-wrap-css input {
+  overflow: visible;
+}
+
+.ptmh1-wrap-css select {
+  text-transform: none;
+}
+
+.ptmh1-wrap-css select {
+  word-wrap: normal;
+}
+
+.ptmh1-wrap-css h5 {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.ptmh1-wrap-css h5 {
+  font-size: 1.25rem;
+}
+
+.ptmh1-wrap-css .row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.ptmh1-wrap-css .col-12,
+.col-5,
+.col-6,
+.col-7,
+.col-md-4,
+.col-md-8 {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.ptmh1-wrap-css .col-5 {
+  -ms-flex: 0 0 41.666667%;
+  flex: 0 0 41.666667%;
+  max-width: 41.666667%;
+}
+
+.ptmh1-wrap-css .col-6 {
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.ptmh1-wrap-css .col-7 {
+  -ms-flex: 0 0 58.333333%;
+  flex: 0 0 58.333333%;
+  max-width: 58.333333%;
+}
+
+.ptmh1-wrap-css .col-12 {
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+@media (min-width: 768px) {
+  .ptmh1-wrap-css .col-md-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+
+  .ptmh1-wrap-css .col-md-8 {
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+  }
+}
+
+.ptmh1-wrap-css .form-control {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ptmh1-wrap-css .form-control {
+    transition: none;
+  }
+}
+
+.ptmh1-wrap-css .form-control::-ms-expand {
+  background-color: transparent;
+  border: 0;
+}
+
+.ptmh1-wrap-css .form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.ptmh1-wrap-css .form-control::-webkit-input-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.ptmh1-wrap-css .form-control::-moz-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.ptmh1-wrap-css .form-control:-ms-input-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.ptmh1-wrap-css .form-control::-ms-input-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.ptmh1-wrap-css .form-control::placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.ptmh1-wrap-css .form-control:disabled {
+  background-color: #e9ecef;
+  opacity: 1;
+}
+
+.ptmh1-wrap-css .form-group {
+  margin-bottom: 5px;
+}
+
+.ptmh1-wrap-css .card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+.ptmh1-wrap-css .card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+
+.ptmh1-wrap-css .card-title {
+  margin-bottom: 0.75rem;
+}
+
+.ptmh1-wrap-css .card-header {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.ptmh1-wrap-css .card-header:first-child {
+  border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+}
+
+.ptmh1-wrap-css .p-3 {
+  padding: 1rem !important;
+}
+
+.ptmh1-wrap-css .text-right {
+  text-align: right !important;
+}
+
+.ptmh1-wrap-css .font-weight-bold {
+  font-weight: 700 !important;
+}
+
+.ptmh1-wrap-css .text-danger {
+  color: #dc3545 !important;
+}
+
+.ptmh1-wrap-css .text-dark {
+  color: #343a40 !important;
+}
+
+/*! CSS Used from: http://saigonsticker.com/porto/css/theme-elements.css */
+.ptmh1-wrap-css .card {
+  position: relative;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.ptmh1-wrap-css .card-header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.ptmh1-wrap-css .card-body {
+  padding: 32px;
+  padding: 2rem;
+}
+
+.ptmh1-wrap-css form label {
+  font-weight: 400;
+}
+
+.ptmh1-wrap-css select {
+  border: 1px solid #e5e7e9;
+  border-radius: 6px;
+  outline: none;
+}
+
+.ptmh1-wrap-css .form-group:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.ptmh1-wrap-css .form-control {
+  border-color: rgba(0, 0, 0, 0.09);
+}
+
+.ptmh1-wrap-css .form-control:not(.form-control-lg) {
+  font-size: 12px;
+  font-size: 0.75rem;
+  line-height: 1.3;
+}
+
+.ptmh1-wrap-css .form-control:not(.form-control-sm):not(.form-control-lg) {
+  font-size: 13.6px;
+  font-size: 0.85rem;
+  line-height: 1.85;
+}
+
+.ptmh1-wrap-css .form-control:focus {
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+  border-color: #ccc;
+}
+
+.ptmh1-wrap-css input[type="number"] {
+  -webkit-appearance: none;
+}
+
+.ptmh1-wrap-css .form-control::-webkit-input-placeholder,
+.ptmh1-wrap-css input[type="number"]::-webkit-input-placeholder {
+  color: #bdbdbd;
+}
+
+.ptmh1-wrap-css .form-control::-moz-placeholder,
+.ptmh1-wrap-css input[type="number"]::-moz-placeholder {
+  color: #bdbdbd;
+}
+
+.ptmh1-wrap-css .form-control:-ms-input-placeholder,
+.ptmh1-wrap-css input[type="number"]:-ms-input-placeholder {
+  color: #bdbdbd;
+}
+
+.ptmh1-wrap-css h5 {
+  color: #212529;
+  font-weight: 200;
+  letter-spacing: -0.05em;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+.ptmh1-wrap-css h5 {
+  font-size: 1em;
+  font-weight: 600;
+  line-height: 18px;
+  margin: 0 0 14px 0;
+  text-transform: uppercase;
+}
+
+.ptmh1-wrap-css p {
+  color: #333;
+  line-height: 26px;
+  margin: 0 0 10px;
+}
+
+/*! CSS Used from: http://saigonsticker.com/porto/css/theme.css */
+.ptmh1-wrap-css .text-2 {
+  font-size: 0.9em !important;
+}
+
+.ptmh1-wrap-css .text-dark {
+  color: #212529 !important;
+}
+
+.ptmh1-wrap-css .font-weight-bold {
+  font-weight: 700 !important;
+}
+
+.ptmh1-wrap-css .btn:hover {
+  color: #212529;
+  text-decoration: none;
+}
+
+.ptmh1-wrap-css .btn:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.ptmh1-wrap-css .btn:disabled {
+  opacity: 0.65;
+}
+
+.ptmh1-wrap-css .btn-primary {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.ptmh1-wrap-css .btn-primary:hover {
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+.ptmh1-wrap-css .btn-primary:focus {
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
+
+.ptmh1-wrap-css .btn-primary:disabled {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.ptmh1-wrap-css .ptmh-submit {
+  margin-right: 0 !important;
+  margin-bottom: 0 !important;
+  margin-top: 10px;
+}
+
+.ptmh1-wrap-css .card-header {
+  background: #007bff;
+}
+
+.ptmh1-wrap-css .d-none {
+  display: none;
+}
+
+.ptmh1-wrap-css .result-css {
+  padding: 15px;
+  border-top: 1px solid #ddd;
+}
+
+.ptmh1-wrap-css .result-css td {
+  padding-left: 5px;
+}
+
+.form-horizontal {
+  margin-bottom: 0;
+}
+
+p[align="left"] {
+  display: none;
+}
+
+.ptmh1-loading-m {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999992 !important;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.ptmh1-loading-m.in {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrap-birthday-3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrap-birthday-2 {
+  display: flex;
+}
+
+.wrap-birthday-2 > * {
+  width: 32% !important;
+  margin-right: 2% !important;
+}
+
+.wrap-birthday-3 > * {
+  width: 32% !important;
+}
+
+[align="center"] {
+  text-align: center;
+}
+
+.ptmh1-wrap-css ul {
+  list-style: none;
+}
+
+.dl-img {
+  padding: 5px 10px;
+  display: inline-block;
+}
+
+tbody {
+  background: transparent !important;
+}
+.content_grid_border .row {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+.wrap-birthday-2 {
+  display: flex;
+}
+.wrap-birthday-2 > * {
+  width: 32% !important;
+  margin-right: 2% !important;
+}
+.lasotuvi {
+  width: 100%;
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: 100% 100%, 100% 100%;
+}
+
+.lasotuvi ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+.lasotuvi td {
+  width: 25%;
+  border: 2px solid #000;
+  padding: 0px;
+}
+.lasotuvi .cung {
+  position: relative;
+  padding: 10px 5px;
+  box-sizing: content-box !important;
+  height: 280px;
+}
+.lasotuvi .color_1 {
+  color: #000;
+  font-weight: bold;
+}
+.lasotuvi .color_2 {
+  color: #009900;
+  font-weight: bold;
+}
+.lasotuvi .color_3 {
+  color: #ff0531;
+  font-weight: bold;
+}
+.lasotuvi .color_4 {
+  color: #c79e00;
+  font-weight: bold;
+}
+.lasotuvi .color_5 {
+  color: #999;
+  font-weight: bold;
+}
+.box__lstv_top {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+.text__small_left {
+  font-size: 13px;
+  line-height: 16px;
+  color: #000;
+  float: left;
+}
+.text__small_middle {
+  text-align: center;
+  position: absolute;
+  top: 0px;
+  font-size: 12px;
+  font-weight: bold;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  width: 100%;
+  line-height: 17px;
+  padding: 0px 12px 0px 16px;
+  text-transform: uppercase;
+}
+.text__small_right {
+  font-size: 13px;
+  line-height: 16px;
+  color: #000;
+  float: right;
+}
+.sao_chinh_tinh {
+  font-size: 18px;
+}
+.box__lstv_bottom {
+  position: absolute;
+  display: inline-block;
+  width: 100%;
+  bottom: 15px;
+  left: 0px;
+  padding: 0px 10px;
+}
+.tieu_han {
+  position: absolute;
+  left: 5px;
+  bottom: 0;
+}
+.han_thang {
+  font-size: 13px;
+  line-height: 16px;
+  color: #000;
+  float: right;
+}
+.truong_sinh {
+  text-align: center;
+  position: absolute;
+  top: 0px;
+  font-size: 14px;
+  font-weight: bold;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  width: 100%;
+  line-height: 17px;
+  padding: 0px 12px 0px 16px;
+}
+.trung_tam {
+  width: 80%;
+  margin: 0px auto;
+  border: 1px solid #000;
+}
+.trung_tam td {
+  border: none;
+}
+.trung_tam td label {
+  padding-left: 10px;
+}
+.lasotuvi .slg1 {
+  text-transform: uppercase;
+  font-size: 18px;
+  text-align: center;
+  margin: 10px 0px 20px 0px;
+}
+.lasotuvi .slg1 span {
+  border-bottom: 1px solid #000;
+  padding-bottom: 20px;
+}
+.lasotuvi .slg2 {
+  font-size: 25px;
+  text-align: center;
+  margin: 10px 0px 20px 0px;
+  font-family: loko;
+}
+.trung_tam_1 {
+  margin: 20px 0px 0px 0px;
+  text-align: center;
+  font-size: 12px;
+  list-style: none;
+}
+.lasotuvi .tuan_triet {
+  position: absolute;
+  display: block;
+  background-color: #000;
+  color: #fff;
+  padding: 0px 20px;
+  z-index: 999;
+}
+.lasotuvi .triet9 {
+  top: 230px;
+  left: 41px;
+}
+.lasotuvi .triet11 {
+  top: 235px;
+  left: 55px;
+}
+.ls_mb {
+  display: none;
+}
+.sao_left {
+  width: 50%;
+  float: left;
+  text-align: left;
+}
+.sao_right {
+  width: 50%;
+  float: right;
+  text-align: right;
+}
+.text_content_main {
+  font-size: 15px;
+  color: #000;
+  line-height: 22px;
+  text-align: justify;
+  display: inline-block;
+  width: 100%;
+}
+.box__title_bg_color {
+  background: #a35f0f;
+  color: #fff;
+  padding: 5px 10px;
+}
+.title__white {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 700;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+}
+.content_grid_border {
+  border: 1px solid #a35f0f;
+  padding: 15px 10px 10px;
+  margin-bottom: 35px;
+  background: #f5f5f5;
+}
+.pdt10 {
+  padding-top: 10px;
+}
+.button__thu_gon {
+  color: #a35f0f;
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 700;
+  display: inline-block;
+  padding: 5px 0;
+}
+.title__collapse {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #010101;
+  display: inline-block;
+  padding: 0 0 5px 18px;
+  margin: 0 0 5px;
+  border-bottom: 1px solid #e4e4e4;
+  width: 400px;
+}
+.button__xem_chi_tiet {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 16px;
+  background: url(https://phongthuyso.vn/templates/site/desktop/img/icons/icon-arrow-circle.png)
+    no-repeat top 0 right 5px;
+  float: right;
+  padding: 2px 30px 1px 0;
+  text-transform: none;
+  color: #000;
+  margin-top: -3px;
+}
+.button__xem_chi_tiet:hover {
+  color: #545454;
+  text-decoration: none;
+}
+.detail__content {
+  display: none;
+}
+.pdb0 {
+  padding-bottom: 0;
+}
+.list_items {
+  display: inline-block;
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .ptmh1-wrap-css .result-css {
+    padding: 3px;
+  }
+  .ptmh1-wrap-css .result-css td {
+    padding-left: 2px;
+    font-size: 10px;
+  }
+  .title__collapse {
+    width: 100%;
+  }
+  .ptmh1-la-so-tu-vi-3-result .row {
+    display: block !important;
+  }
+  .lasotuvi ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+  }
+  .sao_left,
+  .sao_right {
+    width: 100%;
+    text-align: left !important;
+  }
+  .sao_left li,
+  .sao_right li {
+    margin: 0 !important;
+  }
+  .sao_chinh_tinh p {
+    margin: 0 !important;
+    line-height: auto !important;
+  }
+  .lasotuvi td {
+    width: 25%;
+    border: 1px solid #000;
+    padding: 0px;
+  }
+  .lasotuvi .cung {
+    position: relative;
+    padding: 5px 2px;
+    box-sizing: content-box !important;
+    height: 220px;
+  }
+  .lasotuvi .c_giap {
+    width: 40%;
+    position: absolute;
+    top: 20px;
+  }
+  .lasotuvi .color_1 {
+    color: #000;
+    font-weight: bold;
+  }
+  .lasotuvi .color_2 {
+    color: #009900;
+    font-weight: bold;
+  }
+  .lasotuvi .color_3 {
+    color: #ff0531;
+    font-weight: bold;
+  }
+  .lasotuvi .color_4 {
+    color: #c79e00;
+    font-weight: bold;
+  }
+  .lasotuvi .color_5 {
+    color: #999;
+    font-weight: bold;
+  }
+  .box__lstv_top {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+  }
+  .text__small_left {
+    line-height: 10px;
+    color: #000;
+    float: left;
+    font-size: 10px;
+    width: 20px;
+  }
+  .text__small_middle {
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    font-size: 8px;
+    font-weight: bold;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    width: 100%;
+    line-height: 10px;
+    padding: 0px 12px 0px 16px;
+    text-transform: uppercase;
+  }
+  .text__small_right {
+    line-height: 16px;
+    color: #000;
+    float: right;
+    font-size: 10px;
+  }
+  .sao_chinh_tinh {
+    font-size: 10px;
+  }
+  .box__lstv_bottom {
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    bottom: 8px;
+    left: 0px;
+    padding: 0px 2px;
+  }
+  .tieu_han {
+    position: absolute;
+    left: 5px;
+    bottom: 0;
+    font-size: 10px;
+  }
+  .han_thang {
+    line-height: 16px;
+    color: #000;
+    float: right;
+    font-size: 10px;
+  }
+  .truong_sinh {
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    font-weight: bold;
+    font-size: 10px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    width: 100%;
+    line-height: 17px;
+    padding: 0px 12px 0px 16px;
+  }
+  .trung_tam {
+    width: 95%;
+    margin: 0px auto;
+    border: 1px solid #000;
+  }
+  .trung_tam td {
+    border: none;
+  }
+  .trung_tam td label {
+    padding-left: 10px;
+  }
+  .lasotuvi .slg1 {
+    text-transform: uppercase;
+    font-size: 10px;
+    text-align: center;
+    margin: 5px 0px 10px 0px;
+  }
+  .lasotuvi .slg1 span {
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+  }
+  .lasotuvi .slg2 {
+    font-size: 15px;
+    text-align: center;
+    margin: 10px 0px 5px 0px;
+    font-weight: bold;
+  }
+  .trung_tam_1 {
+    margin: 10px 0px 0px 0px;
+    text-align: center;
+    list-style: none;
+    padding: 0px;
+  }
+
+  .lasotuvi .tuan_triet {
+    position: absolute;
+    display: block;
+    background-color: #000;
+    color: #fff;
+    padding: 1px 10px;
+    z-index: 999;
+    font-size: 8px;
+  }
+  .lasotuvi .triet1 {
+    top: 228px;
+    left: -29px;
+  }
+  .lasotuvi .triet2 {
+    top: 223px;
+    left: -32px;
+  }
+  .lasotuvi .triet3 {
+    top: -5px;
+    left: 48px;
+  }
+  .lasotuvi .triet4 {
+    top: 230px;
+    left: 60px;
+  }
+  .lasotuvi .triet5 {
+    top: -9px;
+    left: 45px;
+  }
+  .lasotuvi .triet6 {
+    top: 230px;
+    left: 60px;
+  }
+  .lasotuvi .triet7 {
+    top: 230px;
+    left: 140px;
+  }
+  .lasotuvi .triet8 {
+    top: 230px;
+    left: 60px;
+  }
+  .lasotuvi .triet9 {
+    top: 230px;
+    /*left: 60px;*/
+    left: 41px;
+  }
+  .lasotuvi .triet10 {
+    top: 230px;
+    left: 60px;
+  }
+  .lasotuvi .triet11 {
+    top: 235px;
+    left: 55px;
+  }
+  .lasotuvi .triet12 {
+    top: 223px;
+    left: -32px;
+  }
+  .lasotuvi .tuantriet {
+    width: 80px;
+    padding: 2px 10px !important;
+    /*left:40px !important; */
+  }
+  .sao_left,
+  .sao_right {
+    font-size: 10px;
+  }
+  .ls_dk {
+    display: none;
+  }
+}

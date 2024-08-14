@@ -1,0 +1,59 @@
+1. Tải Node.js:
+Truy cập trang web chính thức của Node.js tại nodejs.org.
+
+Bạn sẽ thấy hai phiên bản:
+
+LTS (Long Term Support): Đây là phiên bản ổn định, được khuyến nghị cho hầu hết người dùng.
+Current: Phiên bản mới nhất, có các tính năng mới nhất nhưng có thể ít ổn định hơn.
+Chọn phiên bản LTS (phiên bản này được khuyến nghị) và nhấn nút tải xuống.
+
+2. Cài Đặt Node.js:
+Mở file cài đặt vừa tải xuống (thường có tên là node-vx.x.x-x64.msi hoặc tương tự).
+
+Bạn sẽ thấy màn hình chào mừng cài đặt Node.js, nhấn Next để tiếp tục.
+
+Chấp nhận Điều khoản:
+
+Bạn sẽ được yêu cầu chấp nhận các điều khoản sử dụng. Đánh dấu vào ô "I accept the terms in the License Agreement" và nhấn Next.
+Chọn Thư Mục Cài Đặt:
+
+Mặc định Node.js sẽ được cài đặt vào C:\Program Files\nodejs\. Nếu bạn muốn thay đổi thư mục, nhấn Change và chọn vị trí mới. Sau đó nhấn Next.
+Chọn các thành phần để cài đặt:
+
+Màn hình tiếp theo sẽ hiển thị các thành phần được cài đặt. Bạn có thể giữ nguyên các lựa chọn mặc định và nhấn Next.
+Cài Đặt Thêm công cụ chocolatey:
+
+Bạn có thể thấy tùy chọn để cài đặt thêm công cụ chocolatey và một số công cụ khác để biên dịch mã gốc với Node.js. Nếu bạn không chắc chắn, bạn có thể bỏ qua và nhấn Next.
+Cài Đặt:
+
+Nhấn Install để bắt đầu quá trình cài đặt. Bạn có thể cần quyền quản trị viên để cài đặt.
+Hoàn Tất:
+
+Sau khi cài đặt hoàn tất, nhấn Finish để kết thúc quá trình.
+3. Kiểm Tra Cài Đặt Node.js và NPM:
+Mở Command Prompt hoặc PowerShell (có thể tìm kiếm trong menu Start).
+
+Gõ lệnh sau để kiểm tra phiên bản Node.js:
+
+node -v
+Nếu Node.js được cài đặt thành công, bạn sẽ thấy phiên bản Node.js, ví dụ:
+v18.14.0
+
+
+Tiếp theo, kiểm tra phiên bản NPM:
+npm -v
+NPM (Node Package Manager) cũng sẽ được cài đặt cùng với Node.js. Bạn sẽ thấy phiên bản NPM, ví dụ:
+9.3.0
+
+4. Cách chạy dự án 
+
+trên visua code mở tab termial và chạy câu lệnh
+npm start
+
+lúc này sever của bạn đã chạy trên host 3000
+
+để chạy giao diện bạn có thể chọn và mở file html trực tiếp hoặc dùng extension live-sever của visua code
+
+---- lưu ý ----
+
+nếu không chạy sever api sẽ không hoạt động
